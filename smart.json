@@ -1,0 +1,7 @@
+{
+  "name": "chat-meteorjs",
+    "description": "Modelo de Chat utilizando o MeteorJS",
+    "homepage": "https://github.com/heversondamasceno/chatapp",
+    "author": "Heverson Damasceno <heversondamasceno@gmail.com>",
+    "version": "0.0.1"
+}

@@ -1,0 +1,77 @@
+body{
+	font: 1em/1.5 'Helverica',sans-serif;
+	background: url(https://s3-sa-east-1.amazonaws.com/heverson.meusite.imgs/bg/geometry.png) repeat;
+}
+
+.main{
+	width: 100%;
+	max-width: 960px;
+	margin:0 auto;
+	padding: 20px;
+	border:1px solid #e2e2e2;
+	border-radius: 0.3em;
+	background: #FFF;
+}
+.login{
+	background-color: #f0f7fd;
+	padding: 5px;
+	border-radius: 0.3em;
+	border: 1px solid #d0e3f0;
+	display:inline-block ;
+	float: right;
+	font-size: 0.8em; 
+}
+.login-link-text{
+	text-decoration: none;
+}
+
+.log-msg{
+	background-color: #f7f5fa;
+	padding: 10px;
+	font-size: 14px;
+}
+.write-messages{
+	max-width: 950px;
+	width: 100%;
+	background: #1A2226;
+	color:#fff;
+	font: 0.8em Arial, sans-serif;
+	padding: 5px;
+	border-bottom: 4px solid #C1C3C4;
+	border-radius: 0.3em;
+	margin: 10px 0;
+}
+.lb-message{
+	max-width: 460px;
+	width: 100%;
+}
+.pop-over{
+	background-color: #49B38F;
+	font: 0.8em Arial, sans-serif;
+	border: 1px solid #cccccc;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: .6em;
+	padding: 10px;
+	color: #FFF;
+	-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	display: none;
+	float: right;
+}
+.pop-over:hover{
+	
+	-webkit-transition: all 1s;
+	   -moz-transition: all 1s;
+	    -ms-transition: all 1s;
+	     -o-transition: all 1s;
+	        transition: all 1s;
+}
+.footer{
+	display: block;
+	text-align: center;
+	font: lighter 0.8em/1.5 sans-serif;
+	padding: 10px 0;
+}
+.footer a{
+	color: #c3c3c3;
+}

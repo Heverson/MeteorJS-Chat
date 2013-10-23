@@ -1,0 +1,43 @@
+<head>
+  <title>Chat app</title>
+</head>
+
+<body>
+  <div class="main">
+    <h1>Chat com MeteorJS</h1>
+    <div class="msg">
+      {{> welcome }}
+    </div>
+    {{> input }}
+    {{> messages }}
+  <div class="footer"> 
+    <a href="http://sebastiandahlgren.se/2013/07/17/tutorial-writing-your-first-metor-application/">
+      App desenvolvida com base  no exemplo mostrado no blog do Sebastian
+    </a> 
+  </div>
+</div>
+
+</body>
+
+
+<template name="welcome">
+	<div class="login">{{loginButtons align="right"}}</div>
+  <p>
+    Bem vindo ao exemplo de chat com MeteorJS!
+  </p>
+</template>
+
+<template name="messages">
+  <div class="log-msg">
+    {{#each messages}}
+      <strong>{{name}}:</strong> {{message}}<br>
+    {{/each}}
+  </div>
+</template>
+
+<template name="input">
+  <div class="write-messages">
+    Mensagem: <input type="text" id="message" class="lb-message"> 
+    <div class="pop-over"></div>
+  </div>
+</template>
